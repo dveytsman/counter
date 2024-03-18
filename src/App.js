@@ -5,9 +5,9 @@ import ClassCounter from "./ComponentCounter";
 
 function App() {
   return (
-    <div className="App">
-      <HookCounter />
-      <ClassCounter />
+    <div className="container">
+      <HookCounter className="box" />
+      <ClassCounter className="box" />
     </div>
   );
 }

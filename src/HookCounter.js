@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./App.css";
 function HookCounter() {
   const [hookCounter, setHookCounter] = useState(0);
 
@@ -10,11 +11,17 @@ function HookCounter() {
     setHookCounter(0);
   };
   return (
-    <div>
+    <div className="counter">
       <h1>Counter using hooks</h1>
-      <p>{hookCounter}</p>
-      <button onClick={handleClick}>increase count</button>
-      <button onClick={handleReset}>reset hook</button>
+      <p className="display">{hookCounter}</p>
+      <div className="buttons">
+        <button className="button" onClick={handleClick}>
+          increase count
+        </button>
+        <button className="button" onClick={handleReset}>
+          reset hook
+        </button>
+      </div>
     </div>
   );
 }

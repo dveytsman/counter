@@ -16,11 +16,18 @@ class ClassCounter extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="counter">
         <h1>Class Counter</h1>
-        <p>{this.state.count}</p>
-        <button onClick={this.handleClick}> increase class counter</button>
-        <button onClick={this.handleReset}>reset count</button>
+        <p className="display">{this.state.count}</p>
+        <div className="buttons">
+          <button className="button" onClick={this.handleClick}>
+            {" "}
+            increase class counter
+          </button>
+          <button className="button" onClick={this.handleReset}>
+            reset count
+          </button>
+        </div>
       </div>
     );
   }
