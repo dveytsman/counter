@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Sample Counter Application Using Both React Hooks and Class Components
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This code is live at [counter application](https://dveytsman.github.io/counter/)
 
 ## Available Scripts
 
