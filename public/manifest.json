@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "hook vs component",
+  "name": "Hooks vs components",
   "icons": [
     {
       "src": "favicon.ico",
